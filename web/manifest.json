@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "dalilek_fi_alshamal",
     "short_name": "dalilek_fi_alshamal",
+=======
+    "name": "north_jordan_guide",
+    "short_name": "north_jordan_guide",
+>>>>>>> 7c13cfae28a5372b1049c1c49502610d6977cb6c
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -27,7 +27,11 @@ int APIENTRY wWinMain(_In_ HINSTANCE instance, _In_opt_ HINSTANCE prev,
   FlutterWindow window(project);
   Win32Window::Point origin(10, 10);
   Win32Window::Size size(1280, 720);
+<<<<<<< HEAD
   if (!window.Create(L"dalilek_fi_alshamal", origin, size)) {
+=======
+  if (!window.Create(L"north_jordan_guide", origin, size)) {
+>>>>>>> 7c13cfae28a5372b1049c1c49502610d6977cb6c
     return EXIT_FAILURE;
   }
   window.SetQuitOnClose(true);
