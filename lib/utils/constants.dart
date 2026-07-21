@@ -9,7 +9,7 @@ class AppColors {
 // --- الألوان الأساسية ---
     primary: Color(0xFF3B1E54), 
     onPrimary: Color(0xFFFFFFFF),
-    primaryContainer: Color(0xFFE9D5FF), 
+    primaryContainer:Color.fromARGB(255, 225, 217, 235), 
     onPrimaryContainer: Color(0xFF3B1E54),
     
     // --- الألوان الثانوية (الأخضر الربيعي) ---
@@ -36,4 +36,7 @@ class AppColors {
 
 
   );
+}
+extension ThemeExtension on BuildContext {
+  ColorScheme get color => Theme.of(this).colorScheme;
 }
