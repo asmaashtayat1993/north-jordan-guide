@@ -1,10 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+<uses-permission android:name="android.permission.INTERNET"/>
     <application
-<<<<<<< HEAD
         android:label="dalilek_fi_alshamal"
-=======
-        android:label="north_jordan_guide"
->>>>>>> 7c13cfae28a5372b1049c1c49502610d6977cb6c
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
