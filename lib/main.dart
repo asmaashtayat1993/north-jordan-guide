@@ -2,6 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
 import 'utils/constants.dart';
+import 'screens/create_acount.dart';
+import 'screens/favorites_screen.dart';
+import 'screens/notification_screen.dart';
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   
@@ -25,8 +29,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         scaffoldBackgroundColor: AppColors.lightColorScheme.surface,
       ),
-      home: ,
-    );
+home: const NotificationScreen(),
+    ); // <-- فقط أضيفي القوس والفاصلة المنقوطة هنا
   }
 }
-

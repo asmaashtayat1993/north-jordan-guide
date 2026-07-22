@@ -1,0 +1,73 @@
+
+import '../models/notification_model.dart';
+
+final List<NotificationModel> mockNotifications = [
+  NotificationModel(
+    id: '1',
+    title: 'أجواء ربيعية في إربد',
+    description: 'الطقس اليوم مثالي للخروج، درجة الحرارة 22 مئوية مع سماء صافية.',
+    type: 'weather',
+    createdAt: DateTime.now().subtract(const Duration(minutes: 5)),
+    isRead: false,
+  ),
+  NotificationModel(
+    id: '2',
+    title: 'خصم حصري من متجر ZEA',
+    description: 'استمتع بخصم 15% على التشكيلة الجديدة من القمصان والقبعات عند استخدام الكود الخاص بك.',
+    type: 'offer',
+    createdAt: DateTime.now().subtract(const Duration(minutes: 45)),
+    isRead: false,
+    actionText: 'تصفح المتجر',
+  ),
+  NotificationModel(
+    id: '3',
+    title: 'موعد تسليم المهام',
+    description: 'تذكير للطلاب بضرورة تسليم مهام البرمجة عبر منصة إدارة المهام قبل منتصف الليل.',
+    type: 'alert',
+    createdAt: DateTime.now().subtract(const Duration(hours: 2)),
+    isRead: true,
+    actionText: 'عرض المهام',
+  ),
+  NotificationModel(
+    id: '4',
+    title: 'اكتشف غابات عجلون',
+    description: 'مسار سياحي جديد تم إضافته لغابات عجلون، مناسب للعائلات ومحبي الطبيعة.',
+    type: 'recommendation',
+    createdAt: DateTime.now().subtract(const Duration(hours: 5)),
+    isRead: true,
+  ),
+  NotificationModel(
+    id: '5',
+    title: 'مهرجان جرش للثقافة والفنون',
+    description: 'تبدأ فعاليات المهرجان غداً في المدينة الأثرية، احجز تذكرتك الآن لتجنب الازدحام.',
+    type: 'event',
+    createdAt: DateTime.now().subtract(const Duration(hours: 12)),
+    isRead: false,
+    actionText: 'حجز تذكرة',
+  ),
+  NotificationModel(
+    id: '6',
+    title: 'عرض مطاعم أم قيس',
+    description: 'احصل على وجبة مجانية عند طلبك من قائمة المأكولات التراثية في مطاعم أم قيس المختارة.',
+    type: 'offer',
+    createdAt: DateTime.now().subtract(const Duration(days: 1)),
+    isRead: true,
+  ),
+  NotificationModel(
+    id: '7',
+    title: 'تحديث منصة السياحة',
+    description: 'تم إضافة معالم سياحية جديدة في لواء الكورة وغابات برقش لخرائط التطبيق.',
+    type: 'recommendation',
+    createdAt: DateTime.now().subtract(const Duration(days: 2)),
+    isRead: true,
+    actionText: 'تحديث الخريطة',
+  ),
+  NotificationModel(
+    id: '8',
+    title: 'ورشة عمل الذكاء الاصطناعي',
+    description: 'ورشة عمل متخصصة في أدوات الذكاء الاصطناعي وإنتاج الفيديو قريباً في جامعة اليرموك.',
+    type: 'event',
+    createdAt: DateTime.now().subtract(const Duration(days: 3)),
+    isRead: true,
+  ),
+];
